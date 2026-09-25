@@ -5,7 +5,7 @@ public class ej20 {
         Scanner sc = new Scanner(System.in);
         double precio, descuento;
         System.out.println("dime el precio del producto: ");
-        precio = sc.nextInt();
+        precio = sc.nextDouble();
         if (precio < 6 ){
             descuento = 0;
         } else if (precio < 60 ) {

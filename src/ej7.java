@@ -5,7 +5,7 @@ public class ej7 {
         Scanner sc = new Scanner(System.in);
         double precio_real;
         System.out.println("introduce el precio real: ");
-        precio_real = sc.nextInt();
+        precio_real = sc.nextDouble();
         double precio_rebajado;
         System.out.println("introduce el precio rebajado: ");
         precio_rebajado = sc.nextInt();

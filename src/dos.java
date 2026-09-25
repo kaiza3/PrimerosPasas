@@ -5,7 +5,7 @@ public class dos {
         Scanner sc = new Scanner(System.in);
         double kwh, precio;
         System.out.println("dime tu consumo mensual: ");
-        kwh = sc.nextInt();
+        kwh = sc.nextDouble();
         if (kwh <= 100) {
             precio = kwh * 0.10;
         } else if (kwh <300) {

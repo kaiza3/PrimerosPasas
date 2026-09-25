@@ -8,9 +8,9 @@ public class ej19 {
         double pago;
         double impuestos;
         System.out.println(" cuanto te pagan por hora: ");
-        precio = sc.nextInt();
+        precio = sc.nextDouble();
         System.out.println(" cuantas horas trabajas: ");
-        horas = sc.nextInt();
+        horas = sc.nextDouble();
         if (horas <= 35) {
             pago = precio * horas;
             System.out.println("pago bruto : "+pago);
