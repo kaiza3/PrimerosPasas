@@ -2,7 +2,7 @@ package refuerzi_1;
 
 import java.util.Scanner;
 
-public class ej20 {
+public class re20 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("dime tu saldo: ");
